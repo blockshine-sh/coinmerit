@@ -53,15 +53,15 @@ Z值为K线时间周期，如1min
 
 ```
 # Request
-`websocket.send('{"event":"subscribe","topic":"cm_huobi_eth_usdt_kline_1min"}')` 
+
+websocket.send('{"event":"subscribe","topic":"cm_huobi_eth_usdt_kline_1min"}')
+
 # Response
-
-```
-
 {
 	"topic": "cm_huobi_eth_usdt_kline_1min",
 	"data": [1529995200000, 0.6371, 0.64, 0.6371, 0.6398, 24693.3]
 }
+```
 
 返回值说明	
 
