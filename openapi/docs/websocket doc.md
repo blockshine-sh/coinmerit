@@ -8,7 +8,9 @@ WebSocket是HTML5一种新的协议(Protocol)。它实现了客户端与服务�
 ## 请求交互    
 
 WebSocket服务连接地址：`ws://gw.api.coinmerit.com/websocket`         
-	
+
+注意：连接时需要在header头中添加参数ApiKey，可以从CoinMerit个人中心获取。
+
 #### 发送请求    
 请求数据格式为：  
 ```json
