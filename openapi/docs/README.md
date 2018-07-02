@@ -2,9 +2,9 @@
 
 ### API概述
 
-CoinMerit为用户提供了一整套简单而又强大的开发工具，旨在帮助用户快速、高效地将数字货币交易数据整合到自己的应用当中。
+[CoinMerit](https://www.coinmerit.com/)为用户提供了一整套简单而又强大的开发工具，旨在帮助用户快速、高效地将数字货币交易数据整合到自己的应用当中。
 
-CoinMerit接口是提供服务的基础，开发者在CoinMerit网站创建账号后，可以根据自身需求建立不同权限的API，并利用API获取交易数据。
+[CoinMerit](https://www.coinmerit.com/)接口是提供服务的基础，开发者在[CoinMerit](https://www.coinmerit.com/)网站创建账号后，可以根据自身需求建立不同权限的API，并利用API获取交易数据。
 
 通过API可以快速实现以下功能：
 
@@ -35,7 +35,7 @@ WebSocket是HTML5一种新的协议(Protocol)。它实现了客户端与服务�
 * 不需要多次创建TCP请求和销毁，节约宽带和服务器的资源。
 
 ### 开启API权限 
-注册成为CoinMerit用户，进入“我的业务-API管理”界面申请获取。其中访问密匙是CoinMerit提供给API用户的访问密钥，私密密匙用于对请求参数签名的私钥。
+注册成为[CoinMerit](https://www.coinmerit.com/) 用户，进入“我的业务-API管理”界面申请获取。其中访问密匙（Api Key）是[CoinMerit](https://www.coinmerit.com/)提供给API用户的访问密钥，私密密匙（Secret Key）用于对请求参数签名的私钥。
 
 *注意： 请勿向任何人泄露这两个参数，这两个参数关乎您账号的安全*
 

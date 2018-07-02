@@ -9,7 +9,7 @@ WebSocket是HTML5一种新的协议(Protocol)。它实现了客户端与服务�
 
 WebSocket服务连接地址：`ws://gw.api.coinmerit.com/websocket`         
 
-注意：连接时需要在header头中添加参数ApiKey，可以从CoinMerit个人中心获取。
+注意：连接时需要在header头中添加参数ApiKey，可以从[CoinMerit](https://www.coinmerit.com/) 个人中心获取。
 
 #### 发送请求    
 请求数据格式为：  
@@ -39,15 +39,15 @@ result: true成功，false失败
 error_code: 错误码  
 
 #### 如何判断连接是否断开
-CoinMerit通过心跳机制解决这个问题。客户端每30秒发送一次心跳数据：{'event':'ping'}，服务器会响应客户端：{"event":"pong"} 以此来表明客户端和服务端保持正常连接。如果客户端未接到服务端响应的心跳数据则需要客户端重新建立连接。    
+[CoinMerit](https://www.coinmerit.com/)通过心跳机制解决这个问题。客户端每30秒发送一次心跳数据：{'event':'ping'}，服务器会响应客户端：{"event":"pong"} 以此来表明客户端和服务端保持正常连接。如果客户端未接到服务端响应的心跳数据则需要客户端重新建立连接。    
 
 ## API参考  
 
 1. cm_X_Y_kline_Z   订阅K线数据
 
-X值为交易所，如huobi	
+X值为交易所，通过 RESTful 的 [/exchanges](http://gw.api.coinmerit.com/exchanges)，如 huobi	
 
-Y值为交易对，如eth_usdt
+Y值为交易对，通过 RESTful 的 [/currency_pairs](http://gw.api.coinmerit.com/currency_pairs) 接口获取，如 eth_usdt，注意为小写，
 
 Z值为K线时间周期，如1min			
 

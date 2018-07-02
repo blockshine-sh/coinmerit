@@ -3,9 +3,7 @@
 REST，即Representational State Transfer的缩写，是目前最流行的一种互联网软件架构。它结构清晰、符合标准、易于理解、扩展方便，正得到越来越多网站的采用。其优点如下：    
 - 在RESTful架构中，每一个URL代表一种资源；    
 - 客户端和服务器之间，传递这种资源的某种表现层；    
-- 客户端通过四个HTTP指令，对服务器端资源进行操作，实现“表现层状态转化”。   
-
-建议开发者使用REST API进行币币交易或者资产提现等操作。    
+- 客户端通过四个HTTP指令，对服务器端资源进行操作，实现“表现层状态转化”。     
     
 ## 请求交互    
 
@@ -22,7 +20,7 @@ REST，即Representational State Transfer的缩写，是目前最流行的一种
 
 1. 请求签名机制
 
-   用户可以从CoinMerit个人中心获取 Api Key 与 Secret Key，其中，Api Key 用于标识访问者的身份；Secret Key 是用于用户端签名以及服务端验证签名的密钥，请注意保管好您的密钥，不要被他人知道。
+   用户可以从[CoinMerit](https://www.coinmerit.com/)个人中心获取访问密匙（Api Key）与 私密密匙（Secret Key），其中，访问密匙（Api Key） 用于标识访问者的身份；私密密匙（Secret Key）是用于用户端签名以及服务端验证签名的密钥，请注意保管好您的密钥，不要被他人知道。
 
 1. 签名计算方式
 
